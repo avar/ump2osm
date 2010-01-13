@@ -691,7 +691,7 @@ def print_point(point, index, argv):
         except:
            sys.stderr.write("converting key " + key + ": " +
                            str(pointattrs[index][key]) + " failed\n")
-    #print("\t<tag k='source' v='%s' />" % source)
+    print("\t<tag k='source' v='%s' />" % source)
     print("</node>")
 
 def print_way(way, index, argv):
